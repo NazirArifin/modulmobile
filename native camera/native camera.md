@@ -155,7 +155,7 @@ import { Camera, CameraOptions } from '@ionic-native/camera';
 
 * Fungsi utama yang digunakan dalam plugin Kamera ini adalah fungsi __camera.getPicture()__ yang menggunakan beragam _option_ sebagai argumennya. Beragam option yang dapat Anda gunakan bisa dilihat di: [https://ionicframework.com/docs/native/camera/](https://ionicframework.com/docs/native/camera/)
 
-## Ujicoba
+## Ujicoba di Device
 
 * Untuk melakukan ujicoba Anda tidak dapat menggunakan _browser_, gunakan _device_ Anda untuk menjalankan aplikasi yang Anda buat. Untuk Android maka Anda setidaknya laptop/pc Anda dilengkapi dengan Java JDK (minimal versi 8), Android Studio, SDK Manager [https://ionicframework.com/docs/intro/deploying/](https://ionicframework.com/docs/intro/deploying/)
 
@@ -164,3 +164,7 @@ import { Camera, CameraOptions } from '@ionic-native/camera';
 ```sh
 ionic cordova run android --device
 ```
+
+## Ujicoba dengan Ionic DevApp
+
+* Anda bisa install Ionic DevApp di PlayStore pastikan laptop/pc dan hp Anda berada di jaringan yang sama. Setelah ```ionic serve``` jalankan Ionic DevApp, begitu aplikasi Anda muncul di hp tekan dan otomatis perubahan di laptop/pc akan terjadi pula di hp Anda.
