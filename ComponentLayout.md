@@ -6,6 +6,14 @@ Tujuan pembelajaran: Mahasiswa memahami dan dapat menggunakan beragam widget das
 
 * Jika Anda belum mempunyai project Flutter maka Anda dapat membuat project baru dengan menggunakan _Command Pallete_ (Ctrl + Shift + P) di Visual Studio Code lalu pilih perintah: __Flutter: New Project__. Ikuti petunjuk berikutnya sampai selesai dan VSCode membuka file __lib/main.dart__.
 
+* Edit file __pubspec.yaml__ dibagian _environment_ diubah menjadi:
+```yaml
+...
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+...
+```
+
 * Jalankan aplikasi pada perangkat / emulator dengan menggunakan menu Debug - Start Debugging
 
 ## Hello World
