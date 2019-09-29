@@ -82,6 +82,8 @@ Widget Container berbentuk kotak (box) dan biasanya digunakan sebagai wadah widg
 
 * Ketikkan kode berikut untuk membuat tampilan seperti contoh:
 
+![](https://raw.githubusercontent.com/NazirArifin/modulmobile/master/img/recipe1.png)
+
 ```dart
 import 'package:flutter/material.dart';
 
@@ -185,3 +187,4 @@ class MyApp extends StatelessWidget {
 
 * Hias tampilan kode diatas dengan menambahkan widget __Image.network__ dengan url image: https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/strawberrypavlova_88895_16x9.jpg diatas judul dan ubah warna teks agar sesuai dengan gambar berikut:
 
+![](https://raw.githubusercontent.com/NazirArifin/modulmobile/master/img/recipe2.png)
