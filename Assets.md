@@ -67,19 +67,24 @@ class MyApp extends StatelessWidget {
             )
           ),
           child: Stack(
-            fit: StackFit.expand,
+            fit: StackFit.loose,
             children: <Widget>[
               Opacity(
                 opacity: 0.1,
-                child: Container(
-                  decoration: BoxDecoration(
-                    image: DecorationImage(
-                      image: AssetImage('assets/images/heart.png'),
-                      fit: BoxFit.fitWidth
+                child: Align(
+                  alignment: Alignment.center,
+                  child: Container(
+                    height: 450,
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage('assets/images/heart.png'),
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                 ),
               ),
+
               Center(
                 child: RichText(
                   text: TextSpan(
