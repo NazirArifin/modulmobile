@@ -161,7 +161,7 @@ class InputPerson extends StatefulWidget {
   const InputPerson({
     Key key,
     @required this.index,
-  }) : _index = index, super(key: key);
+  }) : super(key: key);
   
   final int index;
 
@@ -195,7 +195,6 @@ class _InputPersonState extends State<InputPerson> {
       color: Color(0xff55021e),
       fontWeight: FontWeight.bold
     );
-    var _i = widget._index;
 
     return DecoratedBox(
       decoration: BoxDecoration(
