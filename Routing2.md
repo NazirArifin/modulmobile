@@ -159,8 +159,7 @@ class Animal {
                 backgroundImage: NetworkImage('https://loremflickr.com/480/480/${item.code}'),
               ),
               title: Text(item.name),
-              subtitle: Text(item.info, overflow: TextOverflow.ellipsis),
-              isThreeLine: true,
+              subtitle: Text(item.info, overflow: TextOverflow.ellipsis)
             ),
           );
         }, 
