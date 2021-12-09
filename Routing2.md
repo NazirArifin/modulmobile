@@ -129,7 +129,7 @@ class Animal {
 ```dart
 ...
   List<Animal> _animalList = [];
-  late Animal _selected;
+  Animal? _selected;
 
   @override
   void initState() {
