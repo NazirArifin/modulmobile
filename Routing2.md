@@ -413,8 +413,6 @@ class _AddScreenState extends State<AddScreen> {
         _namaController.text = args.name;
         _infoController.text = args.info;
       });
-    } else {
-      setState(() => id = args.id);
     }
 ...
                     child: ElevatedButton(
